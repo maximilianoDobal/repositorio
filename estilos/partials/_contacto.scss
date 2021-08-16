@@ -5,3 +5,15 @@ $largoFormulario: 200px;
     height: $largoFormulario !important;
 }
 
+.formulario__texto{
+    font-size: 1.2rem ;
+    border-radius: 0%;
+    border: solid 0.2rem black;
+    ::placeholder{
+        font-size: 1.2rem;
+    }
+}
+.formulario__texto:focus{
+    border-color: black;
+}
+

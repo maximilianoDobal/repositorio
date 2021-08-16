@@ -1,7 +1,11 @@
+@import "./variables";
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: $familiaChica;
+    font-size: 400;
 }
 body{
     color:#3a4750;
@@ -9,4 +13,7 @@ body{
 }
 ul{
     list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: $familiaGrande;
 }

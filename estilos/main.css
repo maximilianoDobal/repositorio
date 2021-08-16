@@ -1,8 +1,12 @@
+/*  TIPOGRAFIAS  */
+/*  TIPOGRAFIAS  */
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-size: 400;
 }
 
 body {
@@ -12,6 +16,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bebas Neue", cursive;
 }
 
 /******* HEADER ********/
@@ -79,7 +87,7 @@ p.galeria__texto {
 }
 
 .collapse__contenedor .collapse__body .collapse__texto {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .collapse__contenedor:focus {
@@ -88,7 +96,7 @@ p.galeria__texto {
 
 /********* INICIO SHOWS ********/
 .show {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 /********** INICIO LOCALES **********/
@@ -122,4 +130,30 @@ p.galeria__texto {
 /******** INICIO CONTACTO ********/
 .formulario__comentario {
   height: 200px !important;
+}
+
+.formulario__texto {
+  font-size: 1.2rem;
+  border-radius: 0%;
+  border: solid 0.2rem black;
+}
+
+.formulario__texto ::-webkit-input-placeholder {
+  font-size: 1.2rem;
+}
+
+.formulario__texto :-ms-input-placeholder {
+  font-size: 1.2rem;
+}
+
+.formulario__texto ::-ms-input-placeholder {
+  font-size: 1.2rem;
+}
+
+.formulario__texto ::placeholder {
+  font-size: 1.2rem;
+}
+
+.formulario__texto:focus {
+  border-color: black;
 }
