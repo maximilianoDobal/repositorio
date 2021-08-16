@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La mejor comida esta en Nimrod's Kitchen. Veni y proba nuestro variado menú">
+  <meta name="keywords"
+    content="NIMROD, KITCHEN, CARNES, MARISCOS, ENTRADAS, POSTRES, BEBIDAS, PASTAS, GOURMET, CALIDAD, RESTAURANTE, SHOW">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilos/main.css">
+  <title>Nimrod's Kitchen - MENÚ</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/logo2.png" alt="Nimrod's Kitchen"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Menú</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./shows.html">Shows</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./locales.html">Locales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body modal__body--texto">
+                            Pagina en construcción
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    Reservas
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- FIN HEADER -->
+  <hr>
+  <!-- INICIO MAIN -->
+  <main class="container-fluid">
+    <div class="row">
+      <div class="offset-lg-2 col-lg-8">
+        <!-- PRIMER ACORDEON -->
+        <p class="m-0">
+          <button class="accordion-button mb-1 collapse__contenedor h3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#entradas" aria-expanded="false" aria-controls="collapseExample">
+            Entradas
+          </button>
+        </p>
+        <div class="collapse collapse__contenedor" id="entradas">
+          <div class="card card-body d-md-flex flex-md-row align-items-lg-center collapse__body">
+            <div class="col-md-5">
+              <img src="./img/variosplatos.png" class="img-fluid" alt="Entradas">
+            </div>
+            <div class="offset-md-1 col-md-5">
+              <p class="collapse__texto">
+                Las entradas de Nimrod son realizadas con mucho amor y especialmente velocidad para que cuando nuestros
+                comensales lleguen, ya puedan disfrutar de buena comida.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEGUNDO ACORDEON -->
+        <p class="m-0">
+          <button class="accordion-button mb-1 collapse__contenedor h3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#carnes" aria-expanded="false" aria-controls="collapseExample">
+            Carnes
+          </button>
+        </p>
+        <div class="collapse collapse__contenedor" id="carnes">
+          <div class="card card-body d-md-flex flex-md-row align-items-lg-center collapse__body">
+            <div class="col-md-5">
+              <img src="./img/carne2.png" class="img-fluid" alt="CarnesImg">
+            </div>
+            <div class="offset-md-1 col-md-5">
+              <p class="collapse__texto">
+                Nuestras carnes son de primerísima calidad. Autentica carne argentina al punto exacto de cocción y lista
+                para hacer los platos más tradicionales como un buen asado argentino o para realizar los mejores platos
+                gourmet.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TERCER ACORDEON -->
+        <p class="m-0">
+          <button class="accordion-button mb-1 collapse__contenedor h3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#pastas" aria-expanded="false" aria-controls="collapseExample">
+            Pastas
+          </button>
+        </p>
+        <div class="collapse collapse__contenedor" id="pastas">
+          <div class="card card-body d-md-flex flex-md-row align-items-lg-center collapse__body">
+            <div class="col-md-5">
+              <img src="./img/fideos.png" class="img-fluid" alt="PastasImg">
+            </div>
+            <div class="offset-md-1 col-md-5">
+              <p class="collapse__texto">
+                Nuestras pastas son creadas por cocineros maestros especializados, por lo tanto siempre encontraran
+                pastas frescas en sus platos. Estamos orgullosos de decir que no le envidiamos nada a Italia.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CUARTO ACORDEON -->
+        <p class="m-0">
+          <button class="accordion-button mb-1 collapse__contenedor h3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#mariscos" aria-expanded="false" aria-controls="collapseExample">
+            Mariscos
+          </button>
+        </p>
+        <div class="collapse collapse__contenedor" id="mariscos">
+          <div class="card card-body d-md-flex flex-md-row align-items-lg-center collapse__body">
+            <div class="col-md-5">
+              <img src="./img/pescado.png" class="img-fluid" alt="Mariscosimg">
+            </div>
+            <div class="offset-md-1 col-md-5">
+              <p class="collapse__texto">
+                Pescados, Mariscos, etc. todo traído bien fresco y en optimas condiciones. Ofrecemos platos con mucho
+                sabor también traemos comidas de otros países como el sushi o la paella.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- QUINTO ACORDEON -->
+        <p class="m-0">
+          <button class="accordion-button mb-1 collapse__contenedor h3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#bebidas" aria-expanded="false" aria-controls="collapseExample">
+            Bebidas
+          </button>
+        </p>
+        <div class="collapse collapse__contenedor" id="bebidas">
+          <div class="card card-body d-md-flex flex-md-row align-items-lg-center collapse__body">
+            <div class="col-md-5">
+              <img src="./img/vinos.png" class="img-fluid" alt="BebidasImg">
+            </div>
+            <div class="offset-md-1 col-md-5">
+              <p class="collapse__texto">
+                Agua, gaseosas, jugos, los más finos champanes o un buen vino añejo, son solo algunas de las opciones
+                que te ofrecemos para acompañar en tu cena mientras miras un buen show.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEXTO ACORDEON -->
+        <p class="m-0">
+          <button class="accordion-button mb-1 collapse__contenedor h3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#postres" aria-expanded="false" aria-controls="collapseExample">
+            Postres
+          </button>
+        </p>
+        <div class="collapse collapse__contenedor" id="postres">
+          <div class="card card-body d-md-flex flex-md-row align-items-lg-center collapse__body">
+            <div class="col-md-5">
+              <img src="./img/torta.png" class="img-fluid" alt="PostresImg">
+            </div>
+            <div class="offset-md-1 col-md-5">
+              <p class="collapse__texto">
+                Nuestros postres están hechos por maestros pasteleros que perfeccionaron sus estudios en el exterior.
+                Preparate a conocer un nuevo sabor de lo dulce que no conocías.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- FIN MAIN-->
+  <hr>
+  <!-- INICIO FOOTER-->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-md-start">
+        <img src="../img/logo2.png" alt="Nimrod's Kitchen" class="img-fluid m-3 logo__footer">
+        <p class="m-md-5">Veni, Come y Disfruta.</p>
+      </div>
+      <div class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-md-center">
+        <a href="https://www.facebook.com/" target="_parent"><img class="iconosRedes m-2" src="./img/facebook.png"
+            alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_parent"><img class="iconosRedes m-2" src="./img/instagram.png"
+            alt="Instagram"></a>
+        <a href="https://twitter.com/" target="_parent"><img class="iconosRedes m-2" src="./img/twitter.png"
+            alt="Twitter"></a>
+      </div>
+    </div>
+  </footer>
+  <!-- FIN FOOTER -->
+
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

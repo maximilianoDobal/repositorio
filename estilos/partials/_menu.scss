@@ -1,0 +1,20 @@
+/******* INICIO MENU ********/
+
+.accordion-button, .accordion-button:active, .accordion-button:not(.collapse){
+    color: black;
+}
+.collapse__contenedor{
+    background-color: white !important;
+    color:rgb(66, 66, 66) !important;
+
+    .collapse__body{
+        background-color: #e6e6e6;
+
+        .collapse__texto{
+            font-size: 1.5rem;
+        }
+    }
+}
+.collapse__contenedor:focus{
+    background-color: #858585 !important;
+}

@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #3a4750;
+  background-color: #e6e8eb;
+}
+
+ul {
+  list-style: none;
+}
+
+/******* HEADER ********/
+.modal__body--texto {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/******* FOOTER ********/
+.iconosRedes {
+  height: 25px;
+  width: 25px;
+}
+
+.logo__footer {
+  height: 125px;
+  width: auto;
+}
+
+/******* Nosotros *********/
+.galeria {
+  max-width: 700px;
+  margin: auto;
+}
+
+.galeria .panel-principal img, .galeria .minis img {
+  width: 100%;
+  max-height: 1400px;
+}
+
+.galeria .minis {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-gap: 5px;
+}
+
+.galeria .minis .galeria__minis--alargar {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+p.galeria__texto {
+  font-weight: 700;
+  font-size: 140%;
+  padding-bottom: 3%;
+}
+
+/******* INICIO MENU ********/
+.accordion-button, .accordion-button:active, .accordion-button:not(.collapse) {
+  color: black;
+}
+
+.collapse__contenedor {
+  background-color: white !important;
+  color: #424242 !important;
+}
+
+.collapse__contenedor .collapse__body {
+  background-color: #e6e6e6;
+}
+
+.collapse__contenedor .collapse__body .collapse__texto {
+  font-size: 1.5rem;
+}
+
+.collapse__contenedor:focus {
+  background-color: #858585 !important;
+}
+
+/********* INICIO SHOWS ********/
+.show {
+  font-size: 3.5rem;
+}
+
+/********** INICIO LOCALES **********/
+.locales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.locales .locales__colorFondo {
+  background-color: #8e99a0;
+  width: 100%;
+}
+
+.locales .locales__colorFondo li {
+  margin: 0.5rem;
+}
+
+.locales__nombreBarrio {
+  font-style: italic;
+}
+
+/******** INICIO CONTACTO ********/
+.formulario__comentario {
+  height: 200px !important;
+}

@@ -1,0 +1,26 @@
+/******* Nosotros *********/
+$largoGaleria: 1400px;
+
+.galeria {
+    max-width: $largoGaleria/2; 
+    margin: auto; 
+    .panel-principal img, .minis img{
+        width: 100%;
+        max-height: $largoGaleria;
+    }
+    .minis {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+        .galeria__minis--alargar{
+            align-self: stretch;
+        }
+    }
+}
+
+p.galeria__texto{
+    font-weight: 700;
+    font-size: 140%;
+    padding-bottom: 3%;
+}

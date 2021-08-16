@@ -1,0 +1,19 @@
+/********** INICIO LOCALES **********/
+
+
+.locales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .locales__colorFondo{
+        background-color: #8e99a0;
+        width: 100%;
+        li{
+            margin: 0.5rem;
+        }
+    }
+}
+.locales__nombreBarrio{
+    font-style: italic;
+}
