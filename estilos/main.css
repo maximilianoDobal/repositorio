@@ -29,14 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /******* FOOTER ********/
-.iconosRedes {
-  height: 25px;
+.redes {
   width: 25px;
+  margin: 1rem;
 }
 
-.logo__footer {
-  height: 125px;
-  width: auto;
+.autoria {
+  font-style: italic;
 }
 
 /******* Nosotros *********/
