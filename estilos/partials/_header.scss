@@ -1,5 +1,16 @@
 /******* HEADER ********/
 
+.scrollBack{
+    color: black;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    z-index: 998;
+    bottom: 15px;
+    right: 15px;
+    scroll-behavior: smooth;
+}
+
 .cabecera{
     position: sticky;
     top: 0;
