@@ -23,6 +23,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /******* HEADER ********/
+.cabecera {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #e6e8ebe5;
+}
+
+.navbar__logo {
+  height: 5rem;
+  width: 5rem;
+}
+
 .modal__body--texto {
   font-size: 2rem;
   text-align: center;
