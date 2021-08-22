@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Bebas Neue", cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
 /******* HEADER ********/
 .scrollBack {
   color: black;
@@ -252,4 +256,25 @@ p.galeria__texto {
 
 .formulario__texto:focus {
   border-color: black;
+}
+
+/*  TIPOGRAFIAS  */
+/* PAGINA 404 */
+.pepito {
+  height: 300px;
+  width: 300px;
+}
+
+.wawa {
+  font-family: "Bebas Neue", cursive;
+  font-size: 15rem;
+  color: black;
+}
+
+.btn__texto {
+  color: white;
+}
+
+.btn__texto:hover {
+  color: white;
 }
