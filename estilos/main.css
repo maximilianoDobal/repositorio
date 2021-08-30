@@ -1,5 +1,7 @@
 /*  TIPOGRAFIAS  */
+/*  TRANSICION  */
 /*  TIPOGRAFIAS  */
+/*  TRANSICION  */
 * {
   padding: 0;
   margin: 0;
@@ -26,6 +28,8 @@ a {
   text-decoration: none;
 }
 
+/*  TIPOGRAFIAS  */
+/*  TRANSICION  */
 /******* HEADER ********/
 .scrollBack {
   color: black;
@@ -54,6 +58,25 @@ a {
 .modal__body--texto {
   font-size: 2rem;
   text-align: center;
+}
+
+.navbar__item {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar__item :hover {
+  background-color: black;
+  color: red !important;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar__item :hover {
+    background-color: transparent;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    border-bottom: 2px solid red;
+  }
 }
 
 /******* FOOTER ********/
@@ -195,7 +218,7 @@ p.galeria__texto {
 }
 
 /********* INICIO SHOWS ********/
-.show {
+.evento {
   font-size: 4.5rem;
 }
 
@@ -259,6 +282,7 @@ p.galeria__texto {
 }
 
 /*  TIPOGRAFIAS  */
+/*  TRANSICION  */
 /* PAGINA 404 */
 .pepito {
   height: 300px;

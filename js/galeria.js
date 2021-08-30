@@ -43,4 +43,9 @@ function imgActivada2(e){
   e.target.style.opacity = opacity;
 }
 
+/* BOTON DARK MODE */
 
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

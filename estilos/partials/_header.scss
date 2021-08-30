@@ -1,3 +1,6 @@
+@import "./variables";
+@import "./media-queries";
+
 /******* HEADER ********/
 
 .scrollBack{
@@ -26,4 +29,19 @@
 .modal__body--texto{
     font-size: 2rem;
     text-align: center;
+}
+
+.navbar__item{
+    transition: $transicion;
+    :hover{
+        background-color: black;
+        color: red !important;
+    }
+    @include tablet{
+        :hover{
+            background-color: transparent;
+            transition-duration: 0.5s;
+            border-bottom: 2px solid red;
+        }
+    }
 }
