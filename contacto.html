@@ -33,7 +33,7 @@
 
 <body>
   <!-- HEADER -->
-  <div class="container-fluid cabecera">
+  <header class="container-fluid cabecera">
     <div class="row">
       <div class="col-md-12">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -58,7 +58,7 @@
                   <a class="nav-link" href="./locales.html">Locales</a>
                 </li>
                 <li class="nav-item navbar__item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                  <a class="nav-link active" href="./contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item navbar__item">
                   <a class="nav-link" href="./reservas.html">Reservas</a>
@@ -69,7 +69,7 @@
         </nav>
       </div>
     </div>
-  </div>
+  </header>
   <div>
     <a href="#top" class="scrollBack"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-up-circle-fill scrollBack" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
@@ -77,25 +77,25 @@
   </div>
   
   <!-- FIN HEADER -->
-  <hr class="mb-1">
   <!-- INICIO MAIN -->
-  <main class="container-fluid mt-5">
+  <main class="container-fluid contacto__espacio">
     <div class="row g-3">
       <div class="offset-md-2 col-md-6">
-        <h2>CONTACTANOS</h2>
+        <h2 class="contacto__color">CONTACTANOS</h2>
       </div>
       <!-- NOMBRE -->
-      <div class="offset-md-2 col-md-6">
+      <form action="get">
+      <div class="offset-md-2 col-md-6 mb-1">
         <input type="text" class="form-control formulario__texto shadow-none" placeholder="NOMBRE" aria-label="City"
           required>
       </div>
       <!-- MAIL -->
-      <div class="offset-md-2 col-md-6">
+      <div class="offset-md-2 col-md-6 mb-1">
         <input type="email" class="form-control formulario__texto shadow-none" placeholder="MAIL" aria-label="State"
           required>
       </div>
       <!-- TIPO DE CONTACTO -->
-      <div class="offset-md-2 col-md-6">
+      <div class="offset-md-2 col-md-6 mb-1">
         <select class="form-select formulario__texto shadow-none" aria-label="Default select example" required>
           <option disabled selected value="">Elegir uno</option>
           <option value="1">Shows</option>
@@ -107,7 +107,7 @@
         </select>
       </div>
       <!-- CAJA COMENTARIO -->
-      <div class="form-floating col-md-6 offset-md-2">
+      <div class="form-floating col-md-6 offset-md-2 mb-1">
         <textarea class="form-control formulario__comentario formulario__texto shadow-none"
           placeholder="Deja tu comentario aca" id="floatingTextarea2"></textarea>
         <label for="floatingTextarea2">Comentarios</label>
@@ -123,10 +123,11 @@
       <button type="reset" class="btn btn-dark offset-md-4 col-md-1 me-5">Limpiar</button>
       <!-- BOTON ENVIAR -->
       <button type="submit" class="btn btn-dark col-md-1">Enviar</button>
+    </form>
     </div>
+  
   </main>
   <!-- FIN MAIN -->
-  <hr>
   <!-- INICIO FOOTER-->
   <footer class="container-fluid">
     <div class="row">

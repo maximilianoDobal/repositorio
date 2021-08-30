@@ -12,13 +12,16 @@
     bottom: 15px;
     right: 15px;
     scroll-behavior: smooth;
+    :hover{
+        color: $rojo;
+    }
 }
 
 .cabecera{
     position: sticky;
     top: 0;
     z-index: 999;
-    background-color: #e6e8ebe5;
+    background-color: #ffffffe5 !important;
 }
 
 .navbar__logo{
@@ -35,13 +38,13 @@
     transition: $transicion;
     :hover{
         background-color: black;
-        color: red !important;
+        color: $rojo !important;
     }
     @include tablet{
         :hover{
             background-color: transparent;
             transition-duration: 0.5s;
-            border-bottom: 2px solid red;
+            border-bottom: 2px solid $rojo;
         }
     }
 }

@@ -33,7 +33,7 @@
 
 <body>
   <!-- HEADER -->
-  <div class="container-fluid cabecera">
+  <header class="container-fluid cabecera">
     <div class="row">
       <div class="col-md-12">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -52,7 +52,7 @@
                   <a class="nav-link" href="./menu.html">Menú</a>
                 </li>
                 <li class="nav-item navbar__item">
-                  <a class="nav-link" href="./shows.html">Shows</a>
+                  <a class="nav-link active" href="./shows.html">Shows</a>
                 </li>
                 <li class="nav-item navbar__item">
                   <a class="nav-link" href="./locales.html">Locales</a>
@@ -69,7 +69,7 @@
         </nav>
       </div>
     </div>
-  </div>
+  </header>
   <div>
     <a href="#top" class="scrollBack"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-up-circle-fill scrollBack" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
@@ -81,8 +81,8 @@
   <!-- INICIO MAIN -->
   <main class="container-fluid">
     <div class="row">
-      <h2>La mejor comida y los mejores shows en un solo lugar</h2>
-      <h3>Proximos eventos</h3>
+      <h2><span class="evento__texto">L</span>a mejor comida y los mejores shows en un solo lugar</h2>
+      <h3><span class="evento__texto">P</span>roximos <span class="evento__texto">e</span>ventos</h3>
       <!-- PRIMER SHOW -->
       <div class="col-md-4 offset-md-1 d-md-flex justify-content-md-end mb-2" data-aos="fade-down"
         data-aos-duration="1500">
@@ -90,7 +90,7 @@
       </div>
       <div class="col-md-3 d-md-flex align-items-md-center justify-content-md-start text-md-start" data-aos="fade-up"
         data-aos-duration="1500">
-        <h3 class="evento">Show de Patricia Sosa</h3>
+        <h3 class="evento"><span class="evento__texto">Show</span> de Patricia Sosa</h3>
       </div>
       <div class="col-md-4 d-md-flex align-items-md-center justify-content-md-start text-md-center" data-aos="fade-left"
         data-aos-duration="1500">
@@ -109,7 +109,7 @@
       </div>
       <div class="col-md-3 d-md-flex align-items-md-center justify-content-md-start text-md-start" data-aos="fade-up"
         data-aos-duration="1500">
-        <h3 class="evento">Circo Anima</h3>
+        <h3 class="evento"><span class="evento__texto">Circo</span> Anima</h3>
       </div>
       <div class="col-md-4 d-md-flex align-items-md-center justify-content-md-start text-md-center" data-aos="fade-left"
         data-aos-duration="1500">
@@ -127,7 +127,7 @@
       </div>
       <div class="col-md-3 d-md-flex align-items-md-center justify-content-md-center text-md-start" data-aos="fade-up"
         data-aos-duration="1500">
-        <h3 class="evento">StandUp a la Carta</h3>
+        <h3 class="evento"><span class="evento__texto">Stand Up</span> a la Carta</h3>
       </div>
       <div class="col-md-4 d-md-flex align-items-md-center justify-content-md-start text-md-center" data-aos="fade-left"
         data-aos-duration="1500">
@@ -141,7 +141,6 @@
     </div>
   </main>
   <!-- FIN MAIN -->
-  <hr>
   <!-- INICIO FOOTER-->
   <footer class="container-fluid">
     <div class="row">

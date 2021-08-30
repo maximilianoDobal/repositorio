@@ -34,7 +34,7 @@
 
 <body>
   <!-- HEADER -->
-  <div class="container-fluid cabecera">
+  <header class="container-fluid cabecera">
     <div class="row">
       <div class="col-md-12">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -56,7 +56,7 @@
                   <a class="nav-link" href="./shows.html">Shows</a>
                 </li>
                 <li class="nav-item navbar__item">
-                  <a class="nav-link" href="./locales.html">Locales</a>
+                  <a class="nav-link active" href="./locales.html">Locales</a>
                 </li>
                 <li class="nav-item navbar__item">
                   <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -70,7 +70,7 @@
         </nav>
       </div>
     </div>
-  </div>
+  </header>
   <div>
     <a href="#top" class="scrollBack"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-up-circle-fill scrollBack" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
@@ -78,15 +78,14 @@
   </div>
   
   <!-- FIN HEADER -->
-  <hr class="mb-1">
   <!-- INICIO MAIN -->
   <main class="locales">
     <!-- LOCAL PALERMO -->
     <div class="locales__colorFondo">
-      <h3 class="locales__nombreBarrio">Palermo</h3>
+      <h3 class="locales__nombreBarrio m-3">Palermo</h3>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.327385874868!2d-58.42445178477044!3d-34.59588208046146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7c46b595b9%3A0xc8addeec848f8af6!2sGorriti%204000%2C%20C1186%20CABA!5e0!3m2!1ses!2sar!4v1625514234219!5m2!1ses!2sar"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        class="locales__mapa" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       <ul>
         <li>Gorriti 4000</li>
         <li>0800-222-REST (7378)</li>
@@ -98,10 +97,10 @@
     </div>
     <!-- LOCAL PUERTO MADERO -->
     <div>
-      <h3 class="locales__nombreBarrio">Puerto Madero</h3>
+      <h3 class="locales__nombreBarrio m-3">Puerto Madero</h3>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1404076585586!2d-58.369489884770374!3d-34.60061088046033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33533b5974541%3A0x75906f40bc402c70!2sAv.%20Alicia%20Moreau%20de%20Justo%20200%2C%20C1049%20CABA!5e0!3m2!1ses!2sar!4v1625516456327!5m2!1ses!2sar"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        class="locales__mapa" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       <ul>
         <li>Av. Alicia Moreau de Justo 200</li>
         <li>0800-222-REST (7378)</li>
@@ -113,10 +112,10 @@
     </div>
     <!-- LOCAL RECOLETA -->
     <div class="locales__colorFondo">
-      <h3 class="locales__nombreBarrio">Recoleta</h3>
+      <h3 class="locales__nombreBarrio m-3">Recoleta</h3>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3227842785864!2d-58.39398028409997!3d-34.59599846459819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabe7c69dd49%3A0xb172a5666c0f5e70!2sC1049%2C%20Av.%20Santa%20Fe%201700%2C%20C1060ABP%20CABA!5e0!3m2!1ses!2sar!4v1625516675751!5m2!1ses!2sar"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        class="locales__mapa" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       <ul>
         <li>Av. Santa Fe 1700</li>
         <li>0800-222-REST</li>
@@ -128,7 +127,7 @@
     </div>
   </main>
   <!-- FIN MAIN -->
-  <hr>
+ 
   <!-- INICIO FOOTER-->
   <footer class="container-fluid">
     <div class="row">

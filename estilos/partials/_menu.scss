@@ -1,25 +1,36 @@
 /******* INICIO MENU ********/
+@import "./variables";
 
+.menu{
+    height: 100vh;
+    margin-top: 5rem;
+}
 .accordion-button, .accordion-button:active, .accordion-button:not(.collapse){
-    color: black;
+    color: $negro;
 }
 .collapse__contenedor{
-    background-color: white !important;
-    color:rgb(66, 66, 66) !important;
+    background-color: $blanco !important;
+    color: $gris !important;
 
     .collapse__body{
-        background-color: #e6e6e6;
+        background-color: $blanco;
 
         .collapse__texto{
-            font-size: 2rem;
+            font-size: 1rem;
+            @include tablet{
+                font-size: 1.5rem;
+            }
         }
     }
 }
 
 .collapse__contenedor:focus{
-    background-color: #858585 !important;
+    background-color: $gris !important;
 }
 .accordion-button:focus{
-    border-color: #858585;
+    border-color: $gris;
     box-shadow: 0 0 0 0;
+}
+.accordion-button{
+    color: $rojo !important;
 }

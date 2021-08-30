@@ -1,5 +1,15 @@
 /******** INICIO CONTACTO ********/
+@import "./variables";
+
 $largoFormulario: 200px;
+
+.contacto__espacio{
+    height: 80vh;
+    margin-top: 2rem;
+}
+.contacto__color{
+    color: $rojo;
+}
 
 .formulario__comentario{
     height: $largoFormulario !important;

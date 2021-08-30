@@ -1,5 +1,10 @@
 /********* INICIO SHOWS ********/
+@import "./variables";
 
 .evento{
     font-size: 4.5rem;
+}
+.evento__texto{
+    font-family: $familiaGrande;
+    color: $rojo;
 }
